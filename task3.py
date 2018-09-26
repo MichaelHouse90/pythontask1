@@ -5,7 +5,9 @@ def get_value_from_list(data:list, index:int):
     try:
       return print(data[index])
     except IndexError:
-      return print(None)
+      return
 
+
+res = get_value_from_list([1,2,3],16)
 get_value_from_list([1,2,3], 2)
-get_value_from_list([1,2,3], 16)
+print(res)

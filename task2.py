@@ -27,6 +27,8 @@ print("\n")
 def compare_elements(a: list, b: set):
     if len(a) > len(b):
         print("List is bigger")
+    elif len(a) == len(b):
+        print ("List is equal to Set")
     else:
         print("Set is bigger")
 
